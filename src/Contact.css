@@ -1,0 +1,316 @@
+.contact-page {
+  min-height: 100vh;
+
+  background:
+    radial-gradient(
+      circle at 10% 10%,
+      rgba(255, 0, 204, 0.16),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 90% 30%,
+      rgba(0, 140, 255, 0.16),
+      transparent 30%
+    ),
+    #050712;
+
+  color: white;
+}
+
+.contact-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px 7%;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+  background: rgba(5, 7, 18, 0.8);
+
+  backdrop-filter: blur(18px);
+}
+
+.contact-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  font-weight: 800;
+}
+
+.contact-logo span {
+  font-size: 1.4rem;
+
+  background: linear-gradient(
+    90deg,
+    #ff00cc,
+    #00c6ff
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.back-link {
+  color: #b9c3dc;
+
+  transition: 0.2s ease;
+}
+
+.back-link:hover {
+  color: white;
+}
+
+.contact-container {
+  width: min(950px, 92%);
+
+  margin: 0 auto;
+
+  padding: 80px 0 120px;
+}
+
+.contact-heading {
+  text-align: center;
+
+  max-width: 750px;
+
+  margin: 0 auto 50px;
+}
+
+.contact-heading h1 {
+  margin: 20px 0;
+
+  font-size: clamp(2.8rem, 6vw, 5rem);
+
+  line-height: 1;
+
+  letter-spacing: -0.05em;
+}
+
+.contact-heading h1 span {
+  background: linear-gradient(
+    90deg,
+    #ff00cc,
+    #7c3cff,
+    #00c6ff
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+}
+
+.contact-heading p {
+  color: #aeb6d0;
+
+  font-size: 1.1rem;
+
+  line-height: 1.7;
+}
+
+.project-form {
+  padding: 40px;
+
+  border: 1px solid rgba(124, 60, 255, 0.35);
+
+  border-radius: 28px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(17, 19, 43, 0.96),
+      rgba(7, 10, 25, 0.96)
+    );
+
+  box-shadow:
+    0 30px 100px rgba(40, 0, 100, 0.25);
+}
+
+.form-section {
+  padding: 35px 0;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.form-section:first-child {
+  padding-top: 0;
+}
+
+.form-section h2 {
+  margin: 0 0 25px;
+
+  font-size: 1.35rem;
+}
+
+.form-grid {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 22px;
+}
+
+.form-group {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 9px;
+}
+
+.form-group.full {
+  grid-column: 1 / -1;
+}
+
+.form-group label {
+  color: #dce3f7;
+
+  font-size: 0.9rem;
+
+  font-weight: 700;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+
+  padding: 15px 16px;
+
+  border: 1px solid rgba(130, 145, 190, 0.25);
+
+  border-radius: 12px;
+
+  outline: none;
+
+  background: rgba(4, 7, 20, 0.8);
+
+  color: white;
+
+  font: inherit;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.form-group textarea {
+  resize: vertical;
+
+  min-height: 120px;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #66708b;
+}
+
+.form-group select {
+  cursor: pointer;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #8b5cf6;
+
+  box-shadow:
+    0 0 0 3px rgba(124, 60, 255, 0.12),
+    0 0 25px rgba(124, 60, 255, 0.12);
+}
+
+.submit-project {
+  width: 100%;
+
+  margin-top: 35px;
+
+  padding: 18px 25px;
+
+  border: 0;
+
+  border-radius: 999px;
+
+  background: linear-gradient(
+    90deg,
+    #ff00cc,
+    #7c3cff,
+    #00c6ff
+  );
+
+  color: white;
+
+  font: inherit;
+
+  font-weight: 800;
+
+  font-size: 1rem;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 0 35px rgba(124, 60, 255, 0.3);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.submit-project:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 15px 45px rgba(124, 60, 255, 0.35);
+}
+
+.form-note {
+  margin: 20px 0 0;
+
+  color: #00e676;
+
+  text-align: center;
+}
+
+.privacy-note {
+  margin: 20px 0 0;
+
+  color: #727d99;
+
+  font-size: 0.8rem;
+
+  text-align: center;
+}
+
+@media (max-width: 650px) {
+  .contact-nav {
+    padding: 16px 20px;
+  }
+
+  .contact-logo {
+    font-size: 0.9rem;
+  }
+
+  .back-link {
+    font-size: 0.85rem;
+  }
+
+  .contact-container {
+    width: 92%;
+
+    padding: 55px 0 80px;
+  }
+
+  .project-form {
+    padding: 25px 20px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-group.full {
+    grid-column: auto;
+  }
+}
