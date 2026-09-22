@@ -59,6 +59,7 @@ const technologies = [
   "React",
   "React Native",
   "Node.js",
+  "AI & AI Tools",
   "Git & GitHub",
   "Java",
   "C++",
@@ -313,3 +314,5 @@ function App() {
 }
 
 export default App;
+
+

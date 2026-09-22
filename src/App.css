@@ -112,7 +112,7 @@ a {
 }
 
 .nav-links a {
-  color: #aeb6d0;
+  color: #b9c7ff;
   font-size: 0.95rem;
   transition: color 0.2s ease;
 }
@@ -245,7 +245,7 @@ a {
 .hero-content > p {
   max-width: 620px;
 
-  color: #aeb6d0;
+  color: #b9c7ff;
 
   font-size: 1.15rem;
   line-height: 1.7;
@@ -482,7 +482,7 @@ a {
 .section-description {
   max-width: 650px;
 
-  color: #9fa9c3;
+  color: #aeb9df;
 
   line-height: 1.7;
 }
@@ -623,7 +623,7 @@ a {
 }
 
 .service-card p {
-  color: #aab3c8;
+  color: #b2bde3;
 
   line-height: 1.6;
 }
@@ -786,7 +786,7 @@ a {
 }
 
 .project-content p {
-  color: #9fa9c3;
+  color: #aeb9df;
 
   line-height: 1.6;
 }
@@ -961,7 +961,7 @@ footer {
 
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 
-  color: #77809a;
+  color: #858fb8;
 
   font-size: 0.85rem;
 }
@@ -973,7 +973,7 @@ footer strong {
 .footer-right {
   margin-left: auto;
 
-  color: #aeb6d0;
+  color: #b9c7ff;
 }
 
 /* =========================================================
